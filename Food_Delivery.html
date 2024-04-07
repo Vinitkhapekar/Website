@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <title>FOOD ORDER FORM</title>
+    <body>
+      <div>
+        <h2>==========Price List==========</h2>
+        
+        <table width="40%" id="alignment" > 
+        <tr>  
+           <th>Food Item</th> 
+           <th></th>
+          <th>Price(Php.)</th>
+        </tr> 
+          
+        <tr>
+           <td>Milk Tea</td> 
+           <td> - </td>
+           <td>120.00</td> 
+        </tr> 
+          
+        <tr>
+           <td>Turon</td>
+           <td> - </td> 
+           <td>15.00</td> 
+        </tr>
+          
+        <tr> 
+           <td>French Fries</td>
+           <td> - </td>  
+           <td>40.00</td>
+        </tr> 
+          
+        <tr>  
+           <td>Halo-halo </td>
+           <td> - </td> 
+           <td>45.00</td> 
+        </tr>  
+          
+        <tr>
+           <td>Burger</td>
+           <td> - </td> 
+           <td>50.00</td>
+        </tr>
+     </table>
+        
+        <br></br><br></br>
+        
+        <form name="tblform" >
+<table width="80%"  id="alignment" >
+<tr>
+<th>Food Item</th>
+<th> </th>
+<th>Quantity</th>
+<th>Price</th> 
+</tr>
+<tr> 
+<td>Item 1:</td> 
+<td>
+<select id="item1">
+<option value="1">--Select Item--</option> 
+<option value="Milk Tea">Milk Tea</option> 
+<option value="Turona">Turon</option> 
+<option value="French Fries">French Fries</option> 
+<option value="Halo-halo">Halo-halo</option> 
+<option value="Burger">Burger</option> 
+</select>
+</td> 
+<td><input type="number" value="0" id="q1"></td>
+<td><input type="text" id="p1"></td>
+</tr>   
+<tr>
+<td>Item 2:</td>
+<td>
+<select id="item2"> 
+<option value="1">--Select Item--</option> 
+<option value="Milk Tea">Milk Tea</option> 
+<option value="Turon">Turon</option> 
+<option value="French Fries">French Fries</option>  
+<option value="Halo-halo">Halo-halo</option>
+<option value="Burger">Burger</option>  
+
+</select>
+</td>
+<td><input  type="number" value="0" id="q2"></td>  
+<td><input type="text"  id="p2"></td>  
+</tr> 
+  <tr>
+<td>Item 3:</td>
+<td>
+<select id="item3"> 
+<option value="1">--Select Item--</option> 
+<option value="Milk Tea">Milk Tea</option> 
+<option value="Turon">Turon</option> 
+<option value="French Fries">French Fries</option>  
+<option value="Halo-halo">Halo-halo</option>
+<option value="Burger">Burger</option>  
+
+</select>
+</td>
+<td><input  type="number" value="0" id="q3"></td>  
+<td><input type="text"  id="p3"></td>  
+</tr> 
+<tr>
+<td>Item 4:</td>
+<td><select id="item4">  
+<option value="1">--Select Item--</option> 
+<option value="Milk Tea">Milk Tea</option>  
+<option value="Turon">Turon</option> 
+<option value="French Fries">French Fries</option>
+<option value="Halo-halo">Halo-halo</option> 
+<option value="Burger">Burger</option> 
+</select>
+</td>
+<td><input type="number" value="0" id="q4"></td>
+<td><input type="text"  id="p4"></td> 
+</tr> 
+<tr>
+<td>Item 5:</td>
+<td><select id="item5">   
+<option value="1">--Select Item--</option> 
+<option value="Milk Tea">Milk Tea</option>   
+<option value="Turon">Turon</option> 
+<option value="French Fries">French Fries</option> 
+<option value="Halo-halo">Halo-halo</option> 
+<option value="Burger">Burger</option>   
+</select>
+  </td>
+  <td><input type="number" value="0" id="q5"></td>
+<td><input type="text"  id="p5"></td> 
+</tr>    
+<tr>
+<td></td> 
+<td></td> 
+<td><input type="submit" class="button" value="Create Bill" onclick=createBill()></td>
+<td><input type="reset" class="button" value="Clear"></td>
+</tr>
+</table>
+</form>
+    </body>
+  </head>
+</html>
